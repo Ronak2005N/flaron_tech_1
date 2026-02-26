@@ -1,0 +1,28 @@
+{
+  "name": "Flarontech",
+  "version": "1.0.0",
+  "description": "Flarontech — Premium Animated Website. Rooted in Innovation. Powered by Vision.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server -p 8090 -o",
+    "start": "http-server -p 8090 -o",
+    "server": "http-server -p 8090",
+    "build:css": "tailwindcss -i ./input.css -o ./css/tailwind.css",
+    "watch:css": "tailwindcss -i ./input.css -o ./css/tailwind.css --watch"
+  },
+  "keywords": [
+    "Flarontech",
+    "premium",
+    "animated",
+    "website",
+    "gsap",
+    "tailwind"
+  ],
+  "author": "Flarontech Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "http-server": "^14.1.1",
+    "tailwindcss": "^4.2.1"
+  }
+}
